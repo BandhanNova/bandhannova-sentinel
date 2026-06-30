@@ -1,0 +1,44 @@
+{
+  "name": "@bandhannova/sentinel-js",
+  "version": "1.0.0",
+  "description": "BandhanNova Sentinel SDK for Frontend and Node.js APM Monitoring",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bandhannova07/bdn-sntnl.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "apm",
+    "bandhannova",
+    "monitoring",
+    "sentinel",
+    "error-tracking",
+    "web-vitals"
+  ],
+  "author": "BandhanNova Platforms",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}

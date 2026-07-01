@@ -1,5 +1,5 @@
 {
-  "name": "@bandhannova/sentinel-js",
+  "name": "@bandhannova07/sentinel-js",
   "version": "1.0.0",
   "description": "BandhanNova Sentinel SDK for Frontend and Node.js APM Monitoring",
   "main": "dist/index.js",

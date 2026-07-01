@@ -1,8 +1,8 @@
-# @bandhannova/sentinel-js
+# @bandhannova07/sentinel-js
 
-![npm version](https://badge.fury.io/js/%40bandhannova%2Fsentinel-js.svg)
+![npm version](https://badge.fury.io/js/%40bandhannova07%2Fsentinel-js.svg)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Node.js Version](https://img.shields.io/node/v/%40bandhannova%2Fsentinel-js.svg)
+![Node.js Version](https://img.shields.io/node/v/%40bandhannova07%2Fsentinel-js.svg)
 
 The official JavaScript & TypeScript SDK for **BandhanNova Sentinel** APM and Error Monitoring.
 
@@ -25,17 +25,17 @@ Sentinel is a lightweight, AI-powered observability and error-tracking platform.
 
 Using NPM:
 ```bash
-npm install @bandhannova/sentinel-js
+npm install @bandhannova07/sentinel-js
 ```
 
 Using Yarn:
 ```bash
-yarn add @bandhannova/sentinel-js
+yarn add @bandhannova07/sentinel-js
 ```
 
 Using pnpm:
 ```bash
-pnpm add @bandhannova/sentinel-js
+pnpm add @bandhannova07/sentinel-js
 ```
 
 ## Quick Start
@@ -45,7 +45,7 @@ The SDK automatically detects your runtime environment. You only need one integr
 ### ES Modules (Frontend or Node.js)
 
 ```javascript
-import { Sentinel } from '@bandhannova/sentinel-js';
+import { Sentinel } from '@bandhannova07/sentinel-js';
 
 const sentinel = new Sentinel({
   projectId: 'your_project_id_here',
@@ -58,7 +58,7 @@ const sentinel = new Sentinel({
 ### CommonJS (Legacy Node.js)
 
 ```javascript
-const { Sentinel } = require('@bandhannova/sentinel-js');
+const { Sentinel } = require('@bandhannova07/sentinel-js');
 
 const sentinel = new Sentinel({
   projectId: 'your_project_id_here',
@@ -71,7 +71,7 @@ const sentinel = new Sentinel({
 You can inject the SDK directly via CDN in your HTML `<head>`:
 
 ```html
-<script src="https://unpkg.com/@bandhannova/sentinel-js/dist/index.global.js"></script>
+<script src="https://unpkg.com/@bandhannova07/sentinel-js/dist/index.global.js"></script>
 <script>
   Sentinel.init({
     projectId: 'your_project_id_here',
